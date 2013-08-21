@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>	Test	</title>
+		<script>
+			function write1()
+			{
+				document.getElementById("instructionDiv").style.visibility="visible";
+			}
+			function erase()
+			{
+				document.getElementById("instructionDiv").style.visibility="hidden";
+			}
+		</script>
+	</head>
+	
+	<body onload="erase()">
+		<button onclick="write1()">Press</button>
+		<div id="instructionDiv">
+				this is instruction div
+		</div>
+	</body>
+</html>
